@@ -12,8 +12,6 @@ public class IssueEntity {
     private String period;
     private char importance;
     
-    
-    
 	public IssueEntity(long id, String title, String content, String period, char importance) {
 		super();
 		this.id = id;
